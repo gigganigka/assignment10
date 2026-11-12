@@ -1,0 +1,29 @@
+AI USAGE INFORMATION
+Date: October 28, 2026
+
+User-provided information regarding previous work:
+The student indicated that the initial version of the game is a continuation of a project developed for a midterm assessment.
+
+Assistance provided by ChatGPT during this dialogue:
+- Review of the assignment brief and lecture materials; clarification of requirements in Russian.
+- Analysis of the `Assets.zip` archive provided by the student and preparation of an updated version, `Assets(1).zip`.
+- Identification of potential input-related issues (virtual gamepad/interface) via static code analysis.
+- At the student’s specific request, assistance with analyzing the project’s source code, including: `PlayerController`, `PlayerShooter`, `SafeAreaPanel`, `TouchStick`, `TouchActionButton`, `MobileGameUI`, and `MobileProjectSetup`. This involved modifying the logic for handling character death (Health) and adjusting texture rectangles for the boss; fixing composite keyboard input components; and configuring project settings, packages, and UI assets.
+- Preparation of documentation, including a Game Design Document (GDD) in PDF format, a `README` file, setup instructions, a Git workflow description, a testing checklist, a verification report, and a script for a video voiceover (in English).
+
+October 29, 2026: Added instructions for exporting the project for iOS (via Xcode) and building it for web platforms (with specific considerations for the Safari browser). October 29, 2026: Refinement of the user interface (UI) and startup process: consultation on fixing event routing for serialized UI buttons,
+centralizing scene loading, separating settings from the main menu, optimizing HUD geometry,
+adding a skin for the asset explorer, and configuring an unlit rendering mode,
+adding a build command for Windows,
+as well as updating Unity, the Input System, and URP to version 6000.6.2f1.
+
+October 30, 2026: Added a shim layer for automatic Unity Remote support (functional only within the editor), utilizing the Input System parser and the GenericRemoteModule API.
+
+November 2, 2026: Audio integration: incorporating previously loaded audio files (jump, coin, taking damage, music)
+using the Resources system, and implementing a persistent music object (singleton) along with scene initialization.
+The audio files (WAV) and project structure have been verified for correctness; however, functional testing of audio playback within Unity has not been performed. 
+November 5, 2026: Utilized the GitHub connector to import assets and project settings provided by students, established submission requirements, created commits, and submitted a pull request (PR) containing the new functionality.
+
+2026-11-12 Assignment 10: Codex implemented separate enemy state machines, perception,
+waypoint motion, telegraphed attacks, enemy shots, tuning assets, encounter scene,
+script map and empty playtest templates

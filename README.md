@@ -19,3 +19,10 @@ AI assistance is disclosed in AI_LOG.txt. The assignment forbids code-writing ag
 ## Assignment 10: Three enemy types
 
 New encounter: `enemy_lab`, started by Play before the original campaign. Read [setup and tuning](Docs/Assignment10/START_RU.md), [script map](Docs/Assignment10/SCRIPT_MAP.md), and [required playtest proof](Docs/Assignment10/PROOF_CHECKLIST.md). Three separate state machines and persistent tuning assets are included. Agent use is permitted for Assignment 10; see DECISIONS.md. Unity/device/playtest results are pending, not fabricated.
+
+
+## Source project
+
+This Assignment 10 submission continues [Assignment 8-9](https://github.com/gigganigka/assignment8-9). Imported from branch `feature/assignment10-enemies`, commit `25e152163fb3376d97031537471171829a76b3c8`. The separately supplied AI_LOG.txt and DECISIONS.md are included in the repository root.
+
+The embedded PS4 signing passcode in the Web build profile was cleared before publication.
